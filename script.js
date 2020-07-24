@@ -62,11 +62,6 @@ const inputOperator=(operator)=>{
   calculationOperator=operator
   currentNumber=''
   
-const equalSign=document.querySelector(".equal-sign")
-
-equalSign.addEventListener("click",()=>{
-  console.log('equal button is pressed')
-})
 
 const calculate=()=>{
   let result=''
@@ -97,11 +92,7 @@ equalSign.addEventListener("click",()=>{
   updateScreen(currentNumber)
 })
 
-const clearBtn=document.querySelector('.all-clear')
 
-clearBtn.addEventListener('click',()=>{
-  console.log('AC button is pressed')
-})
 
 const clearAll=()=>{
   prevNumber=''
