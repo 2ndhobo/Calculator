@@ -35,7 +35,11 @@ button{
 	outline: none;
 }
 
-.all-clear, .zero-btn{
+.all-clear{
+	width:50%;
+} 
+
+.zero-btn{
 	width:50%;
 }
 
